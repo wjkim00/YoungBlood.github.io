@@ -21,6 +21,10 @@ This blog was created to record my personal studies and projects. If you want to
 - GPA: 4.31/4.5
 - Research field: Computer Vision & Machine Learning
 
+##### Other Courses
+- NVIDIA Intelligence Video Analysis
+- NIPA AI in KSA
+
 ## Skills
 #### Computer Vision
 - Major in Computer Vision, proficient in image processing

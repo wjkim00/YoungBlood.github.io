@@ -2,23 +2,36 @@
 main:
   - title: "About"
     url: /about
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Posts"
+    url: /post
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
 
-about:
+about-category:
   - title: "About"
     children:
-      - title: "About"
+      - title: "Who Am I?"
         url: /about/
       - title: "Careers"
         url: /about/careers
       - title: "Projects"
-        url:
+        url: /about/projects
       - title: "Publications"
+        url: /about/publications
+
+post-category:
+  - title: "개발.."
+    children:
+      - title: "C/C++"
+        url: /posts/
+
+  - title: "Computer Vision"
+    children:
+      - title: "abcd"
+        url:
+  - title: "기타 등등"
+    children:
+      - title: "abcd"
         url:

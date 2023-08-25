@@ -284,7 +284,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
 # Defaults
 defaults:
   # _posts
@@ -300,13 +299,8 @@ defaults:
       related: true
       show_date: true
       date_format: "%Y-%m-%d"
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+      sidebar:
+        nav: "post-category"
   # _about
   - scope:
       path: ""
@@ -319,4 +313,4 @@ defaults:
       comments: false
       classes: wide
       sidebar:
-        nav: "about"
+        nav: "about-category"
